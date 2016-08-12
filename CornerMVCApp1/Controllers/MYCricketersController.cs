@@ -9,9 +9,9 @@ namespace CornerMVCApp1.Controllers
     public class MYCricketersController : Controller
     {
         // GET: MYCricketers
-        public ViewResult Index()
+        public string Index()
         {
-            return View();
+            return "Hello, World!";
         }
     }
 }
